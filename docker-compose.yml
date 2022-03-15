@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+ frontend:
+  image: seasoned132porks/234-deploylab-frontend:latest
+  ports:
+   - "8811:80"
